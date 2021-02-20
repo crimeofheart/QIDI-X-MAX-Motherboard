@@ -1,4 +1,4 @@
-QIDI XüMAX Motherboard Project
+QIDI X-MAX Motherboard Project
 Starting
 
 To download this project to your computer:
