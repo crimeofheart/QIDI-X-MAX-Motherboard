@@ -1,0 +1,6 @@
+bootloader starts: 000000
+boot loader  ends :00a96b
+firmware starts :01fffc
+firmware ends : 0787ff
+memory ends at: 0ffff0 
+
