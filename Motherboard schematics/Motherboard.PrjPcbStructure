@@ -1,1 +1,7 @@
-Record=TopLevelDocument|FileName=Heated bed.SchDoc
+Record=TopLevelDocument|FileName=Extruder.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Extruder.SchDoc|FileName=Heated bed.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Extruder.SchDoc|FileName=LCD Screen.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Extruder.SchDoc|FileName=Limit switches.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Extruder.SchDoc|FileName=Microcontroller.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Extruder.SchDoc|FileName=Relay controll extension board v1.5.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Extruder.SchDoc|FileName=Stepper drivers.SchDoc|SheetNumber= 
