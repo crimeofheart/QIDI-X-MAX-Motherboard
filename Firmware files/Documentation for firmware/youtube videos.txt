@@ -1,0 +1,5 @@
+How to upload free DFU bootloader
+https://www.youtube.com/watch?v=Kx7yWVi8kbU
+
+Details about the boot loader
+https://www.youtube.com/watch?v=boXSdDnHaAE
