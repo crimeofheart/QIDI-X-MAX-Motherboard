@@ -1,5 +1,10 @@
 How to upload free DFU bootloader
 https://www.youtube.com/watch?v=Kx7yWVi8kbU
 
-Details about the boot loader
+boot loader trough UART
 https://www.youtube.com/watch?v=boXSdDnHaAE
+
+Boot loader trough USB  (DFU)
+https://www.youtube.com/watch?v=1r_Pyyc_6e8
+
+https://ardupilot.org/dev/docs/using-DFU-to-load-bootloader.html
