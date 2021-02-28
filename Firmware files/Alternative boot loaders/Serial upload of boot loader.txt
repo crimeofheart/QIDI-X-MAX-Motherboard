@@ -1,0 +1,13 @@
+1. Download the [latest HID Bootloader](https://github.com/Serasidis/STM32_HID_Bootloader/releases) release
+2. Download the [stm32flash](https://github.com/rogerclarkmelbourne/Arduino_STM32/tree/master/tools) from Roger's Clark Github repo.
+3. Extract the stm32flash to your hard disk.
+4. Copy into that folder the HID Bootloader file (xxx.bin) according to your board. e.g. ```hid_generic_pc13.bin``` file is for **BluePill** board, ```hid_maple_mini.bin``` is for **Maple Mini** board etc The on-board LED is connectet to the PC13 pin.
+5. Set ```BOOT-0``` pin to '1' (3.3V) and reset the board (On QIDI X_MAX board this pin on ground the wire has to be cut and 10K pull up resistor to 3.3V)
+6. Type on Windows CMD (or Linux terminal) ```stm32flash.exe -g 0x8000000 -b 115200 -w hid_generic_pc13.bin COM2 ``` or ```stm32flash -g 0x8000000 -b 115200 -w hid_generic_pc13.bin /dev/ttyS0``` for programming the HID Bootloader firmware to a **BluePill** board.
+
+This is for arduino:
+
+7. Apply the ```Arduino_STM32_patch``` from [here](https://github.com/Serasidis/STM32_HID_Bootloader) in case of using Roger's Core (select the zip file according to your Operating System). 
+8. Select from Arduino IDE ```Tools > Board > [your_stm32_board]```
+9. Select  ```Tools > Upload method > HID Bootloader 2.1``` or newer 
+10. You are ready !
